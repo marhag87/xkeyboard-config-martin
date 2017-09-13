@@ -1,0 +1,9 @@
+default partial alphanumeric_keys
+xkb_symbols "basic" {
+    include "se"
+
+    key <CAPS> { [ F12 ] };
+    key <MENU> { [ Hyper_R ] };
+
+    modifier_map Mod3 { Hyper_R };
+};
